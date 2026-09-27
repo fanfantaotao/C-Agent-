@@ -1,0 +1,17 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+
+# Local tool and browser state
+.wb-bridge/
+.workbuddy/
+.openai/
+audit/
+.npmrc
+AGENTS.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.log

@@ -29,7 +29,7 @@ mac/Linux：npm ci && npm run dev:bridge
 - 点选**不依赖特定浏览器**：Chrome / Edge 都行，桥是开发服务器上的队列，浏览器只是"输入设备"。
 - **改代码那一步必须由 AI agent 完成** —— 页面自己不会改源码。没有 agent 时只能收集清单，改不动。
 - 每个元素都带 `data-wb-src="src/Workspace.jsx:246:131"`（编译期注入），点选因此能精确落到源码某一行。
-- 细节与接口清单见 `AGENTS.md`。
+- 点选桥的实现位于 `wb-bridge/`。
 
 
 ## 本地启动
